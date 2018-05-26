@@ -16,7 +16,7 @@
     - name: Make my directory tree readable
       file:
         path: /var/www/html
-        mode: u=rwX, g=rX, o=rX
+        mode: u=rwX,g=rX,o=rX
         recurse: yes
         owner: apache
         group: apache
